@@ -1,0 +1,9 @@
+total 28
+drwxr-xr-x  2 thdoa thdoa 4096 Jan  1 14:39 .
+drwxr-xr-x 13 thdoa thdoa 4096 Dec 31 18:51 ..
+-rwxr-xr-x  1 thdoa thdoa 1020 Dec 29 22:56 max
+-rw-r--r--  1 thdoa thdoa  290 Jan  1 13:44 max.c
+-rw-r--r--  1 thdoa thdoa 1160 Dec 29 22:56 max.o
+-rw-r--r--  1 thdoa thdoa  370 Dec 29 22:56 max.s
+-rw-r--r--  1 thdoa thdoa    0 Jan  1 14:39 quang2
+-rw-r--r--  1 thdoa thdoa  354 Jan  1 14:38 quang.cry

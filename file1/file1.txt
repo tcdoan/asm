@@ -1,0 +1,5 @@
+Using Files in a Program
+
+We are going to write a simple program to illustrate these concepts. The program will take two
+files, and read from one, convert all of its lower-case letters to upper-case, and write to the other
+file. Before we do so, let’s think about what we need to do to get the job done
