@@ -23,7 +23,7 @@ write_record:
     movl 12(%ebp), %ebx
     movl 8(%ebp),  %ecx    
     movl $RECORD_SIZE, %edx
-    int  $LINUX_SYSCALL   
+    int  $0x80   
 
     popl %ebx
     movl %ebp, %esp

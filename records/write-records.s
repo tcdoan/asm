@@ -66,7 +66,9 @@ _start:
 
     movl $5, %eax
     movl $file_name, %ebx
-    movl $0101, %ecx # create if it doesn’t exist, and open for writing
+
+    # $0 for READ, $0101 for WRITE_ONLY, $03101 for CREATE | WRITE_ONLY | TRUNCATE
+    movl $0101, %ecx
     movl $0666, %edx
     int $0x80
 
@@ -99,4 +101,3 @@ _start:
     movl $1, %eax
     movl $0, %ebx
     int $0x80
-

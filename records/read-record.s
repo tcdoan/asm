@@ -18,11 +18,11 @@ read_record:
     movl %esp, %ebp
     pushl %ebx
 
-    movl $3, %eax           # %eax has the return value, which will give back to calling program
-    movl 12(%ebp), %ebx
-    movl 8(%ebp),  %ecx    
+    movl $3,            %eax    # %eax has the return value, which will give back to calling program
+    movl 12(%ebp),      %ebx
+    movl 8(%ebp),       %ecx    
     movl $RECORD_SIZE, %edx
-    int  $LINUX_SYSCALL   
+    int  $0x80   
 
     popl %ebx
     movl %ebp, %esp
