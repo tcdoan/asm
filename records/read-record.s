@@ -21,7 +21,7 @@ read_record:
     movl $3,            %eax    # %eax has the return value, which will give back to calling program
     movl 12(%ebp),      %ebx
     movl 8(%ebp),       %ecx    
-    movl $RECORD_SIZE, %edx
+    movl $RECORD_SIZE,  %edx
     int  $0x80   
 
     popl %ebx

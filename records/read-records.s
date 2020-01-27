@@ -16,7 +16,7 @@ _start:
 
     movl  $5,           %eax
     movl  $file_name,   %ebx   
-    movl  $0,           %ecx        # This says to open read-only      
+    movl  $0,           %ecx        # Open mode.  0 means open read-only      
     movl  $0600,        %edx
     int   $0x80
 

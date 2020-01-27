@@ -6,6 +6,9 @@
 newline:
 .ascii "\n"
 
+what_to_wite:
+.ascii "Hello World\n"
+
 .section .text
 write_newline:
     pushl %ebp
